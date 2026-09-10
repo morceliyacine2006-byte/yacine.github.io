@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Yacine | Social Media</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #111111, #292929);
+      color: white;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 420px;
+      text-align: center;
+    }
+
+    .profile {
+      margin-bottom: 35px;
+    }
+
+    .profile h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+
+    .profile p {
+      color: #bbbbbb;
+      font-size: 16px;
+    }
+
+    .social-link {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      width: 100%;
+      padding: 18px 22px;
+      margin: 16px 0;
+      border-radius: 18px;
+      text-decoration: none;
+      color: white;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      transition: 0.25s ease;
+      backdrop-filter: blur(10px);
+    }
+
+    .social-link:hover {
+      transform: translateY(-3px);
+      background: rgba(255,255,255,0.15);
+    }
+
+    .icon {
+      width: 45px;
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 27px;
+      border-radius: 13px;
+      background: white;
+    }
+
+    .instagram .icon {
+      color: #e1306c;
+    }
+
+    .snapchat .icon {
+      color: #111111;
+      background: #fffc00;
+    }
+
+    .text {
+      text-align: left;
+    }
+
+    .text strong {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 4px;
+    }
+
+    .text span {
+      color: #aaaaaa;
+      font-size: 14px;
+    }
+
+    .footer {
+      margin-top: 30px;
+      color: #777777;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="profile">
+      <h1>YACINE</h1>
+      <p>Connect with me</p>
+    </div>
+
+    <a
+      class="social-link instagram"
+      href="https://www.instagram.com/_yacxine/"
+      target="_blank"
+    >
+      <div class="icon">◎</div>
+
+      <div class="text">
+        <strong>Instagram</strong>
+        <span>@_yacxine</span>
+      </div>
+    </a>
+
+    <a
+      class="social-link snapchat"
+      href="https://www.snapchat.com/add/yacsine_mcl?share_id=Ob9uCSNWqaU&locale=en-US"
+      target="_blank"
+    >
+      <div class="icon">👻</div>
+
+      <div class="text">
+        <strong>Snapchat</strong>
+        <span>@yacsine_mcl</span>
+      </div>
+    </a>
+
+    <div class="footer">
+      Scan • Tap • Connect
+    </div>
+
+  </div>
+
+</body>
+</html>
